@@ -1,0 +1,114 @@
+/* Body design for pages */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EFE9F4;
+    color: #484D6D;
+    line-height: 1.6;
+}
+
+/* Header design */
+header {
+    background-color: #08B2E3;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 5px solid #57A773;
+    font-size: 1.5rem;
+}
+
+/* Sections design */
+section {
+    padding: 40px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 1rem;
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+/* Link styling using a */
+.navbar a {
+    display: flex;
+    align-items: center;
+    color: #484D6D;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 15px 25px;
+    /* Adjust borders around each link so they appear as circles */
+    border-radius: 50px;
+    background-color: #EFE9F4;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Style icons from ionicons */
+.navbar a ion-icon {
+    font-size: 2rem;
+    margin-right: 10px;
+    color: #484D6D;
+}
+
+/* Hover effects for navbar */
+.navbar a:hover {
+    background-color: #08B2E3;
+    color: white;
+}
+
+/* Hover effects for icons */
+/* Changes icon color on hover */
+.navbar a:hover ion-icon {
+    color: white;
+}
+
+/* Unordered list design */
+ul {
+    list-style-type: circle;
+    padding: 0;
+}
+
+/* Ordered list design */
+ol{
+    list-style-type: none;
+}
+
+/* Course container design for relevant coursework */
+.course-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Table styling for course list */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    text-align: center;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Footer styling */
+footer {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #484D6D;
+    color: white;
+}
